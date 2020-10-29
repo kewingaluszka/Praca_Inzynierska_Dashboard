@@ -55,7 +55,7 @@ static void MX_GPIO_Init(void);
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 	//  left button
 	if (GPIO_Pin == BUTTON_1_Pin) {
-		a=a-10;
+		HAL_GPIO_TogglePin(LED_FRONT_GPIO_Port, LED_FRONT_Pin);
 	}
 
 	if (GPIO_Pin == BUTTON_2_Pin) {
