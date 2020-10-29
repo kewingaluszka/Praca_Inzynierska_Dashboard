@@ -55,11 +55,11 @@ static void MX_GPIO_Init(void);
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 	//  left button
 	if (GPIO_Pin == BUTTON_1_Pin) {
-		a++;
+		a=a-10;
 	}
 
 	if (GPIO_Pin == BUTTON_2_Pin) {
-			a--;
+			a=a+10;
 		}
 }
 
