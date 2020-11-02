@@ -64,6 +64,10 @@ void Error_Handler(void);
 #define BUTTON_2_Pin GPIO_PIN_4
 #define BUTTON_2_GPIO_Port GPIOA
 #define BUTTON_2_EXTI_IRQn EXTI4_IRQn
+#define THROTTLE_HALL_Pin GPIO_PIN_6
+#define THROTTLE_HALL_GPIO_Port GPIOA
+#define BRAKE_HALL_Pin GPIO_PIN_7
+#define BRAKE_HALL_GPIO_Port GPIOA
 #define LED_6_Pin GPIO_PIN_3
 #define LED_6_GPIO_Port GPIOB
 #define LED_5_Pin GPIO_PIN_4
